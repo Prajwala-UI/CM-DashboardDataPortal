@@ -1,0 +1,28 @@
+{
+  "name": "cm-dashboard-data-portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.101.4",
+    "axios": "^1.6.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router-dom": "^6.30.2"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=local REACT_APP_BASE_URL=/ PORT=3000 node scripts/env-loader.js vite",
+    "start:local": "cross-env REACT_APP_ENV=local REACT_APP_BASE_URL=/ PORT=3000 node scripts/env-loader.js vite",
+    "start:test": "cross-env REACT_APP_ENV=test REACT_APP_BASE_URL=/CM-DashboardDP/ PORT=3000 node scripts/env-loader.js vite",
+    "build": "node scripts/env-loader.js vite build",
+    "build:local": "cross-env REACT_APP_ENV=local REACT_APP_BASE_URL=/ npm run build",
+    "build:test": "cross-env REACT_APP_ENV=test REACT_APP_BASE_URL=/CM-DashboardDP/ GENERATE_SOURCEMAP=false npm run build",
+    "build:preprod": "cross-env REACT_APP_ENV=preprod REACT_APP_BASE_URL=/CM-DashboardDP/ GENERATE_SOURCEMAP=false npm run build",
+    "build:prod": "cross-env REACT_APP_ENV=prod REACT_APP_BASE_URL=/CM-DashboardDP/ GENERATE_SOURCEMAP=false npm run build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "cross-env": "^10.1.0",
+    "vite": "^6.4.3"
+  }
+}

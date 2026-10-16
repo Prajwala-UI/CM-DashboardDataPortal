@@ -1,0 +1,900 @@
+/* Migrated from Angular src/app/app.component.css.
+   Scoped to reproduce Angular emulated view encapsulation (attribute [data-shell] on every compound selector). */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body[data-shell] {
+font-family: "Poppins", sans-serif;
+background: #fafafa;
+height: 100%;
+}
+
+p[data-shell] {
+font-family: "Poppins", sans-serif;
+font-size: 1.1em;
+font-weight: 300;
+line-height: 1.7em;
+color: #999;
+}
+
+a[data-shell],
+a[data-shell]:hover,
+a[data-shell]:focus {
+text-decoration: none;
+transition: all 0.3s;
+}
+
+.navbar[data-shell] {
+padding: 5px 9px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 0px solid blue;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 9999999;
+  border-top: 1px solid #222d32;
+}
+
+.navbar-btn[data-shell] {
+box-shadow: none;
+outline: none !important;
+border: none;
+}
+
+.line[data-shell] {
+width: 100%;
+height: 1px;
+border-bottom: 1px dashed #ddd;
+margin: 40px 0;
+}
+
+.top_nav[data-shell] {
+border: 0px solid red;
+height: 67px;
+box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+}
+
+.top_nav_img[data-shell] {
+height: 57px;
+}
+
+.navbar-inverse[data-shell] .navbar-brand[data-shell] {
+color: #0a0a0a !important;
+padding: 0px;
+padding-left: 0px;
+margin: 0px;
+height: auto;
+display: flex;
+}
+
+.navbar-inverse[data-shell] .navbar-brand[data-shell] p[data-shell] {
+color: #bf7e2e;
+font-size: 16px;
+font-weight: 600;
+margin-left: 10px;
+margin-top: 6px;
+}
+
+.navbar-inverse[data-shell] .navbar-brand[data-shell] p[data-shell] span[data-shell] {
+color: #000000;
+font-weight: 500;
+font-size: 11px;
+margin-top: -7px;
+position: fixed;
+}
+
+.container-fluid[data-shell] > .navbar-collapse[data-shell],
+.container-fluid[data-shell] > .navbar-header[data-shell],
+.container[data-shell] > .navbar-collapse[data-shell],
+.container[data-shell] > .navbar-header[data-shell] {
+margin-right: 0;
+margin-left: 0;
+}
+
+.wrapper[data-shell] {
+align-items: stretch;
+height: 100vh;
+background-color: #fbf5e9;
+}
+
+#sidebar[data-shell] {
+
+color: #fff;
+transition: all 0.3s;
+background-color: #fffbf4;
+max-height: 100%;
+height: -webkit-fill-available;
+padding-top: 0px;
+height: 1000px;
+}
+
+#sidebar[data-shell] a[data-shell],
+#sidebar[data-shell] a[data-shell]:hover,
+#sidebar[data-shell] a[data-shell]:focus {
+color: inherit;
+}
+
+#sidebar.active[data-shell] {
+margin-left: -250px;
+}
+
+#sidebar[data-shell] .sidebar-header[data-shell] {
+padding: 5px 5px;
+text-align: center;
+background-color: #222d32;
+border-bottom: 0px solid #b8babc;
+}
+
+.sidebar-header[data-shell] p[data-shell] {
+margin: 0px;
+color: #b8c7ce;
+font-size: 13px;
+font-family: 'Poppins';
+text-align: left;
+
+padding-left: 3px;
+}
+
+#sidebar[data-shell] ul.components[data-shell] {
+padding: 0px 0;
+border-bottom: 0px solid #4a4a4a;
+}
+
+#sidebar[data-shell] ul[data-shell] p[data-shell] {
+color: #fff;
+padding: 10px;
+}
+
+#sidebar[data-shell] ul[data-shell] li[data-shell] a[data-shell] {
+padding: 10px 20px;
+font-size: 14px;
+display: flex;
+align-items: center;
+color: #764f05;
+font-family: system-ui;
+font-weight: 600;
+border: none;
+outline: none;
+border-radius: 6px;
+background-color: transparent;
+border-left: 3px solid transparent;
+transition: background-color 0.18s ease, color 0.18s ease, border-left-color 0.18s ease;
+}
+
+#sidebar[data-shell] ul[data-shell] li[data-shell] a[data-shell] i[data-shell] {
+width: 18px;
+margin-right: 10px;
+text-align: center;
+}
+
+#sidebar[data-shell] ul[data-shell] li[data-shell] a[data-shell]:hover {
+color: #764f05;
+background: #f3e3c2;
+border-left-color: #e2c787;
+}
+
+#sidebar[data-shell] ul[data-shell] li[data-shell] a.active[data-shell],
+#sidebar[data-shell] ul[data-shell] li[data-shell] a.active[data-shell]:hover {
+color: #ffffff;
+background: #B8862E;
+border-left-color: #6B4E14;
+font-weight: 700;
+border: none;
+outline: none;
+}
+
+#sidebar[data-shell] ul[data-shell] li[data-shell] a[data-shell]:focus-visible {
+outline: 2px solid #6B4E14;
+outline-offset: -2px;
+}
+
+.menu_nav[data-shell] {
+padding: 10px 25px 10px 15px;
+font-size: 12px;
+color: #f9c296;
+background: #1a2226;
+text-align: center;
+font-family: 'Poppins';
+}
+
+a[data-toggle="collapse"][data-shell] {
+position: relative;
+}
+
+a[aria-expanded="false"][data-shell]::before,
+a[aria-expanded="true"][data-shell]::before {
+content: "\e259";
+display: block;
+position: absolute;
+right: 20px;
+font-family: "Glyphicons Halflings";
+font-size: 0.6em;
+}
+
+a[aria-expanded="true"][data-shell]::before {
+content: "\e260";
+}
+
+ul[data-shell] ul[data-shell] a[data-shell] {
+font-size: 0.9em !important;
+padding-left: 30px !important;
+background: #355770;
+}
+
+ul.CTAs[data-shell] {
+padding: 20px;
+}
+
+ul.CTAs[data-shell] a[data-shell] {
+text-align: center;
+font-size: 0.9em !important;
+display: block;
+border-radius: 0px;
+margin-bottom: 0px;
+}
+
+a.download[data-shell] {
+background: #fff;
+color: #7386d5;
+}
+
+a.article[data-shell],
+a.article[data-shell]:hover {
+background: #2c2c2c !important;
+color: #fff !important;
+}
+
+#content[data-shell] {
+padding: 0px 0px;
+
+transition: all 0.3s;
+width: 82%;
+margin-left: 18%;
+margin-top: 0px;
+background-color: #fbf5e9;
+}
+
+#content.full-width[data-shell] {
+width: 100%;
+margin-left: 0;
+margin-top: 0;
+}
+
+.mycontent[data-shell] {
+height: 60px;
+background-color: #ffffff;
+padding: 1px 5px;
+width: 82%;
+padding: 5px 5px;
+position: fixed;
+z-index: 2;
+box-shadow: 10px -4px 9px 3px rgba(0, 0, 0, 0.2), 0 17px 34px 4px rgba(0, 0, 0, 0.19);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+z-index: 99999;
+}
+
+.webanalytics_btn[data-shell] {
+  margin: 14px 30px;
+  background-color: #f0f8ff00;
+  color: white;
+  font-size: 16px;
+  border: 0px;
+}
+
+#sidebarCollapse[data-shell] {
+background-color: #1c1c1c00;
+position: absolute;
+margin-top: -40px
+}
+
+.sidebar[data-shell] {
+position: fixed;
+  width: 18%;
+  max-height: 106%;
+  height: -webkit-fill-available;
+  
+  z-index: 99;
+  
+  top: 66px;
+  border-right: 1px solid #f8edd9;
+}
+
+#logout[data-shell] {
+margin: 9px 15px;
+margin-bottom: 0px;
+color: black !important;
+background-color: #ececec;
+border: 1px solid #c0bdbd;
+padding: 5px 15px;
+font-size: 11px;
+margin-right: 21px;
+font-family: 'Poppins';
+border-radius: 23px;
+}
+
+#logout[data-shell] img[data-shell] {
+width: 41px;
+border-radius: 50%;
+}
+
+#logout[data-shell] p[data-shell] {
+margin: 0px;
+
+font-weight: 400;
+
+color: black;
+}
+
+.logo[data-shell] {
+width: 60px;
+padding: 5px;
+}
+
+.media-left[data-shell] {
+padding: 5px;
+
+}
+
+.media[data-shell] {
+text-align: -webkit-center;
+
+background-color: #f4f4f4;
+padding: 5px;
+}
+
+.media-heading[data-shell] {
+font-size: 20px;
+text-align: left;
+padding: 21px 4px 4px 3px;
+margin: 0px;
+color: #dee3e6;
+font-family: 'Poppins';
+font-weight: 600;
+text-align: left;
+}
+
+.media-title[data-shell] {
+  font-size: 14px !important;
+  text-align: center;
+  padding: 0px 4px;
+}
+
+.admin[data-shell] {
+padding: 10px;
+  font-size: 13px;
+  color: #ffffff;
+  
+  text-align: center;
+  border-bottom: 1px solid #dbdcdd;
+  background-color: #415887;
+  
+  font-family: 'Poppins';
+  
+  
+  margin-bottom: 5px;
+}
+
+.fa[data-shell],
+.fas[data-shell] {
+font-weight: 900;
+padding-right: 0px;
+}
+
+.myul[data-shell] {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.myul[data-shell] li[data-shell] {
+display: inherit;
+color: white;
+padding: 14px 10px;
+font-family: 'Poppins';
+}
+
+.myul[data-shell] li[data-shell] a[data-shell] {
+color: #51565a;
+cursor: pointer;
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 400;
+border: 0px solid red;
+padding: 7px 5px 7px 10px;
+border-radius: 50%;
+background-color: #ffffff;
+color: #222d32;
+}
+
+.modal[data-shell] {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1050;
+display: none;
+overflow: hidden;
+-webkit-overflow-scrolling: touch;
+outline: 0;
+background-color: #00000073;
+}
+
+.modal-header[data-shell] {
+padding: 15px;
+border-bottom: 1px solid #e5e5e5;
+background-color: #07233ad9;
+color: white;
+text-align: center;
+}
+
+.modal-header[data-shell] .close[data-shell] {
+margin-top: -2px;
+color: white;
+opacity: 1;
+}
+
+.modal-body[data-shell] {
+
+}
+
+.modal-body[data-shell] p[data-shell] {
+color: black;
+font-size: 14px;
+text-align: justify;
+opacity: 1;
+font-family: unset;
+}
+
+.modal-body[data-shell] ul[data-shell] {
+padding: 6px 15px;
+}
+
+.modal_p[data-shell] {
+  font-weight: 700;
+  margin: 0px;
+  color: #306d9d !important;
+}
+
+.contact[data-shell] {
+margin: 0px;
+margin-bottom: 5px;
+ 
+font-family: unset;
+}
+
+.modal-open[data-shell] {
+overflow: hidden;
+padding: 0px !important;
+}
+
+.footer[data-shell] {
+position: fixed;
+bottom: 0;
+color: white;
+background-color: antiquewhite;
+padding: 0px !important;
+width: 19.5%;
+margin: 0px;
+}
+
+.footer[data-shell] li[data-shell] {
+margin: 0px;
+border-radius: 0px;
+}
+
+.footer[data-shell] li[data-shell] a[data-shell] {
+background-color: #2766bb;
+border: 0px solid red;
+font-size: 8px !important;
+padding: 5px  !important;
+}
+
+.acad_doc[data-shell] {
+border: 0px solid red;
+padding: 7px;
+font-family: 'Poppins';
+font-size: 12px;
+padding: 10px;
+font-size: 12px;
+display: block;
+color: #b8c7ce;
+font-family: 'Poppins';
+font-weight: 400;
+border-bottom: 0px solid #b5b5b5;
+background-color: #364146;
+}
+
+.fa-graduation-cap[data-shell] {
+
+}
+
+.aca_li[data-shell] {
+
+}
+
+.aca_li[data-shell] a[data-shell] {
+padding-left: 34px !important;
+}
+
+.fa-home[data-shell] {
+ margin-right: 8px;
+ font-size: 15px;
+}
+
+.fa-graduation-cap[data-shell] {
+margin-right: 3px;
+font-size: 13px;
+}
+
+.fa-rupee[data-shell] {
+margin-right: 9px;
+font-size: 16px;
+margin-left: 4px;
+}
+
+.active[data-shell] {
+color: #fff; 
+background-color: #a56d0b;
+border-left: 2px solid #e2efff;
+
+}
+
+.myul_right[data-shell] li[data-shell] {
+list-style: none;
+}
+
+.welcome[data-shell] {
+padding-right: 0px !important;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.welcome[data-shell] a[data-shell] {
+padding: 11px 15px;
+background-color: #fbf5e900;
+color: #3a3123;
+font-size: 12px;
+top: 15px;
+position: relative;
+}
+
+.datetime[data-shell] {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+.datetime[data-shell] a[data-shell] {
+padding: 11px 10px;
+background-color: #f4f4f4;
+color: #393837;
+font-size: 12px;
+
+margin-right: 8px;
+top: 15px;
+position: relative;
+}
+
+.datetime[data-shell] a[data-shell] span[data-shell] {
+ font-weight: 700;
+}
+
+.new_logout[data-shell] {
+padding-left: 0px !important;
+border-top-left-radius: 0px !important;
+}
+
+.new_logout[data-shell] a[data-shell] {
+border: 0px solid red !important;
+  border-radius: 5px !important;
+  background-color: #1780d4;
+  color: white !important;
+  padding: 10px 18px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #1a59a7, #418ff3);
+}
+
+.myul_right[data-shell] {
+display: inherit;
+color: white;
+padding: 1px 0px;
+font-family: 'Poppins';
+float: right;
+display: flex;
+margin-bottom: 0px;
+border: 0px solid red;
+background-color: #fbf5e9;
+padding-bottom: 8px;
+padding-right: 5px;
+}
+
+.fa-user-circle[data-shell] {
+font-size: 34px;
+  color: #b8862e;
+  margin-top: 8px;
+  padding-right: 5px;
+}
+
+.fa-sign-out[data-shell] {
+color: #da5802;
+}
+
+.fa-clock-o[data-shell] {
+font-size: 16px;
+color: #4f90e8;
+}
+
+a[data-shell]::before {
+content: "\e260";
+display: none !important;
+}
+
+.caret-up[data-shell] {
+border-top: none;
+border-bottom: 4px solid #fff;
+margin-top: 7px;
+}
+
+.profile_btn[data-shell] {
+height: 50px;
+}
+
+.profile_btn[data-shell]:hover {
+border: 2px solid rgb(208, 208, 212);
+border-radius: 50%;
+}
+
+.open[data-shell] > .dropdown-menu[data-shell] {
+display: block;
+border: 0px solid red;
+left: -255px;
+padding: 0px;
+box-shadow: 3px 10px 8px 1px rgba(0, 0, 0, 0.1);
+border-radius: 1px;
+
+border-top: 2px solid #e6e6e6;
+width: 350px;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+margin-top: 10px;
+}
+
+.open[data-shell] > .dropdown-menu.cms-profile-menu[data-shell] {
+width: 300px;
+padding: 0;
+text-align: left;
+overflow: hidden;
+border-top: none;
+box-shadow: 0 12px 32px rgba(38, 50, 74, 0.18), 0 2px 8px rgba(38, 50, 74, 0.08);
+}
+
+.dropdown-menu[data-shell] li[data-shell] {
+border: 0px solid red;
+background-color: white !important;
+color: black;
+padding: 5px;
+margin-top: 0px;
+font-weight: 500;
+font-size: 15px;
+}
+
+.dropdown-menu[data-shell] li[data-shell] span[data-shell] {
+
+}
+
+.dropdown-menu[data-shell] li[data-shell] a[data-shell] {
+padding: 10px !important;
+background-color: white;
+}
+
+.dropdown-menu[data-shell] li[data-shell] a[data-shell]:hover {
+padding: 10px !important;
+background-color: rgb(229, 228, 228);
+}
+
+.firstletter[data-shell] {
+border: 0px solid red;
+background-color: white !important;
+color: white;
+padding: 4px 15px;
+border: 0px solid red;
+border-radius: 50%;
+font-size: 29px;
+background-color: #0e3783 !important;
+}
+
+.cms-profile-menu[data-shell] .cms-profile-header[data-shell] {
+display: flex !important;
+align-items: center;
+gap: 12px;
+padding: 18px 18px 16px !important;
+background: #FBF5E9 !important;
+border-bottom: 1px solid #EFE3C4;
+font-size: inherit;
+font-weight: inherit;
+}
+
+.cms-profile-avatar[data-shell] {
+width: 42px;
+height: 42px;
+border-radius: 50%;
+background: #B8862E;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 17px;
+flex-shrink: 0;
+box-shadow: 0 2px 6px rgba(184, 134, 46, 0.35);
+}
+
+.cms-profile-headtext[data-shell] {
+min-width: 0;
+}
+
+.cms-profile-name[data-shell] {
+font-family: system-ui;
+font-size: 15px;
+font-weight: 700;
+color: #26324A;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.cms-profile-role[data-shell] {
+font-family: system-ui;
+font-size: 11px;
+color: #8A7A52;
+margin-top: 2px;
+}
+
+.cms-profile-menu[data-shell] .cms-profile-info[data-shell] {
+padding: 14px 18px !important;
+background: #FFFFFF !important;
+display: flex;
+flex-direction: column;
+gap: 14px;
+}
+
+.cms-profile-row[data-shell] {
+display: flex;
+align-items: flex-start;
+gap: 12px;
+text-align: left;
+}
+
+.cms-profile-row-icon[data-shell] {
+width: 30px;
+height: 30px;
+border-radius: 8px;
+background: #FBF5E9;
+border: 1px solid #EFE3C4;
+color: #B8862E;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 12px;
+flex-shrink: 0;
+margin-top: 1px;
+}
+
+.cms-profile-row-text[data-shell] {
+min-width: 0;
+}
+
+.cms-profile-label[data-shell] {
+font-family: system-ui;
+font-size: 10.5px;
+font-weight: 600;
+color: #9A8B64;
+text-transform: uppercase;
+letter-spacing: 0.4px;
+}
+
+.cms-profile-value[data-shell] {
+font-family: system-ui;
+font-size: 13px;
+font-weight: 600;
+color: #26324A;
+margin-top: 2px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.cms-profile-menu[data-shell] .cms-profile-footer[data-shell] {
+padding: 12px 18px 16px !important;
+background: #FFFFFF !important;
+border-top: 1px solid #F1EAD6;
+}
+
+.cms-logout-btn[data-shell] {
+width: 100%;
+border: none;
+background: transparent;
+margin: 0;
+padding: 0;
+}
+
+.cms-logout-btn[data-shell] a[data-shell] {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+width: 100%;
+box-sizing: border-box;
+padding: 10px 14px !important;
+border: 1px solid #F0C4C4;
+border-radius: 6px;
+background: #FFFFFF !important;
+color: #B84343;
+font-family: system-ui;
+font-size: 13px;
+font-weight: 700;
+cursor: pointer;
+transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.cms-logout-btn[data-shell] a[data-shell]:hover {
+background: #FBE7E7 !important;
+border-color: #E3A3A3;
+padding: 10px 14px !important;
+}
+
+.cms-logout-btn[data-shell] i[data-shell] {
+color: inherit;
+padding-right: 0;
+}
+
+.last[data-shell] {
+margin: 0px;
+font-size: 11px;
+color: #6a6969;
+font-weight: 800;
+margin-top: 10px;
+}
+
+.last[data-shell] span[data-shell] {
+
+}
+
+.myprofile_btn[data-shell] {
+border: 0px;
+background-color: white;
+margin-top: 30px;
+}
+
+.myprofile_btn[data-shell] a[data-shell] {
+font-size: 0.9em !important;
+padding-left: 30px !important;
+background: #ffffff !important;
+color: #393636;
+border: 1px solid #d6d6d6;
+border-radius: 5px;
+}
+
+.myprofile_btn[data-shell] a[data-shell]:hover {
+font-size: 0.9em !important;
+padding-left: 30px !important;
+background: #d6d6d6 !important;
+
+border: 1px solid #9f9f9f;
+border-radius: 5px;
+}
+
+.dash_role[data-shell] {
+  color: #ab771c;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 11px;
+  font-family: system-ui;
+  font-weight: 700;
+}

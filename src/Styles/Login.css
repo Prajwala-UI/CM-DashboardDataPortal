@@ -1,0 +1,516 @@
+/* Migrated from Angular LOGIN/login/login.component.css.
+   Scoped to reproduce Angular emulated view encapsulation (page root .page-login). */
+.page-login * {
+  box-sizing: border-box;
+}
+
+.page-login .cmd-page {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #faf3e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 0px;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.page-login .cmd-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-login .cmd-badge {
+  width: 64px;
+  height: 64px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: 2px solid #b7862f;
+  color: #b7862f;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0 auto 14px;
+  background: #faf3e8;
+}
+
+.page-login .cmd-eyebrow {
+      
+      font-size: 12px;
+      color: #8a6a35;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      font-weight: 600;
+      margin-top: 5px;
+      font-family: system-ui;
+}
+
+.page-login .cmd-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #17325c;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.page-login .cmd-card {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  padding: 32px;
+}
+
+.page-login .cmd-card-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #17325c;
+  font-size: 20px;
+  margin: 0 0 6px;
+}
+
+.page-login .cmd-card-subtitle {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0 0 22px;
+}
+
+.page-login .cmd-field {
+  margin-bottom: 18px;
+}
+
+.page-login .cmd-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2f2618;
+  margin-bottom: 7px;
+}
+
+.page-login .cmd-input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d9c9a3;
+  border-radius: 6px;
+  background: #fffdf8;
+  font-size: 14px;
+  color: #17325c;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.page-login .cmd-input::placeholder {
+  color: #a89f8d;
+  letter-spacing: 0.3px;
+}
+
+.page-login .cmd-input:focus {
+  border-color: #b7862f;
+}
+
+.page-login .cmd-input:disabled {
+  background: #f3ede0;
+  cursor: not-allowed;
+}
+
+.page-login .cmd-inline-field {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.page-login .cmd-inline-field .cmd-input {
+  flex: 1;
+}
+
+.page-login .cmd-password-wrap {
+  position: relative;
+}
+
+.page-login .cmd-password-wrap .cmd-input {
+  padding-right: 62px;
+}
+
+.page-login .cmd-eye-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #b7862f;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.page-login .cmd-link-btn {
+  white-space: nowrap;
+  background: transparent;
+  border: 1px solid #b7862f;
+  color: #b7862f;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.page-login .cmd-link-btn:hover:not(:disabled) {
+  background: #fdf4e3;
+}
+
+.page-login .cmd-link-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-login .cmd-select {
+  position: relative;
+}
+
+.page-login .cmd-select-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 11px 12px;
+  border: 1px solid #d9c9a3;
+  border-radius: 6px;
+  background: #fffdf8;
+  font-size: 14px;
+  color: #17325c;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: border-color 0.15s ease;
+}
+
+.page-login .cmd-select.open .cmd-select-trigger {
+  border-color: #b7862f;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.page-login .cmd-select.disabled .cmd-select-trigger {
+  background: #f3ede0;
+  color: #a89f8d;
+  cursor: not-allowed;
+}
+
+.page-login .cmd-select-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-login .cmd-select-value.placeholder {
+  color: #a89f8d;
+}
+
+.page-login .cmd-select-chevron {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #b7862f;
+  transition: transform 0.15s ease;
+}
+
+.page-login .cmd-select.open .cmd-select-chevron {
+  transform: rotate(180deg);
+}
+
+.page-login .cmd-select-chevron svg,
+.page-login .cmd-select-spinner svg {
+  width: 100%;
+  height: 100%;
+}
+
+.page-login .cmd-select-spinner {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #b7862f;
+  animation: login-cmd-spin 0.8s linear infinite;
+}
+
+.page-login .cmd-select-spinner svg circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-dasharray: 42 14;
+}
+
+@keyframes login-cmd-spin {
+  to { transform: rotate(360deg); }
+}
+
+.page-login .cmd-select-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: #ffffff;
+  border: 1px solid #b7862f;
+  border-top: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.page-login .cmd-select-search {
+  padding: 8px;
+  border-bottom: 1px solid #ece3d1;
+}
+
+.page-login .cmd-select-search input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #e3d9bf;
+  border-radius: 5px;
+  font-size: 13px;
+  outline: none;
+  background: #fffdf8;
+  color: #17325c;
+}
+
+.page-login .cmd-select-search input:focus {
+  border-color: #b7862f;
+}
+
+.page-login .cmd-select-list {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+.page-login .cmd-select-option {
+  padding: 10px 14px;
+  font-size: 13.5px;
+  color: #3a2f1c;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-login .cmd-select-option:hover {
+  background: #fdf4e3;
+}
+
+.page-login .cmd-select-option.selected {
+  background: #fbead0;
+  color: #8a5a15;
+  font-weight: 600;
+}
+
+.page-login .cmd-select-empty {
+  padding: 14px;
+  font-size: 13px;
+  color: #a89f8d;
+  text-align: center;
+}
+
+.page-login .cmd-select-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.page-login .cmd-select-list::-webkit-scrollbar-thumb {
+  background: #e3d9bf;
+  border-radius: 4px;
+}
+
+.page-login .cmd-login-btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #b7862f;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.15s ease;
+}
+
+.page-login .cmd-login-btn:hover:not(:disabled) {
+  background: #a17527;
+}
+
+.page-login .cmd-login-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.page-login .cmd-alert {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.page-login .cmd-alert-error {
+  background: #fdecea;
+  color: #b3261e;
+  border: 1px solid #f5c2c0;
+}
+
+.page-login .cmd-alert-info {
+  background: #eef6ec;
+  color: #1e6b34;
+  border: 1px solid #c7e3c2;
+}
+
+.page-login .cmd-lang-toggle {
+  margin-top: 22px;
+  display: inline-flex;
+  background: #fff;
+  border: 1px solid #d9c9a3;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page-login .cmd-lang-toggle button {
+  border: none;
+  background: transparent;
+  padding: 6px 16px;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.page-login .cmd-lang-toggle button.active {
+  background: #b7862f;
+  color: #ffffff;
+}
+
+.page-login .cmd-footer {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #9a9186;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .page-login .cmd-page {
+    padding: 40px 12px 24px;
+  }
+
+  .page-login .cmd-header {
+    margin-bottom: 22px;
+  }
+
+  .page-login .cmd-badge {
+    width: 54px;
+    height: 54px;
+    line-height: 50px;
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .page-login .cmd-eyebrow {
+    font-size: 10.5px;
+    letter-spacing: 2px;
+  }
+
+  .page-login .cmd-title {
+    font-size: 21px;
+  }
+
+  .page-login .cmd-card {
+    max-width: 100%;
+    padding: 22px 18px;
+    border-radius: 10px;
+  }
+
+  .page-login .cmd-card-title {
+    font-size: 18px;
+  }
+
+  .page-login .cmd-card-subtitle {
+    font-size: 12.5px;
+    margin-bottom: 18px;
+  }
+
+  .page-login .cmd-select-list {
+    max-height: 45vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .page-login .cmd-title {
+    font-size: 18px;
+  }
+
+  .page-login .cmd-inline-field {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .page-login .cmd-link-btn {
+    width: 100%;
+  }
+}
+
+.page-login .top_nav_img {
+  height: 70px;
+}
+
+.page-login .cmd-forgot-link {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.page-login .cmd-forgot-link a {
+  color: #b7862f;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-login .cmd-forgot-link a:hover {
+  text-decoration: underline;
+}
+
+.page-login .cmd-back-link {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.page-login .cmd-back-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #b7862f;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-login .cmd-back-link a:hover {
+  text-decoration: underline;
+}
+
+.page-login .cmd-back-link i {
+  font-size: 12px;
+}
+
+.page-login .cmd-hint-error {
+  margin-top: 6px;
+  font-size: 12.5px;
+  color: #b3261e;
+}

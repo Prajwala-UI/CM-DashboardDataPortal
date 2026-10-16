@@ -1,0 +1,354 @@
+/* Migrated from Angular Nodal_Modules/nodal-usermgt/nodal-usermgt.component.css.
+   Scoped to reproduce Angular emulated view encapsulation (page root .page-nodal-usermgt). */
+.page-nodal-usermgt .cms-nodal {
+  margin: 0 auto;
+  padding: 36px 32px 60px;
+  font-family: system-ui;
+  color: #26324A;
+  box-sizing: border-box;
+  background-color: #fbf5e9;
+  min-height: calc(100vh - 60px);
+}
+
+.page-nodal-usermgt .cms-nodal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+
+.page-nodal-usermgt .cms-title {
+  font-family: system-ui;
+  font-size: 26px;
+  font-weight: 700;
+  color: #383531;
+  margin: 0 0 8px 0;
+}
+
+.page-nodal-usermgt .cms-subtitle {
+  font-size: 13px;
+  color: #6B6250;
+  margin: 0;
+  font-family: system-ui;
+}
+
+.page-nodal-usermgt .cms-state-msg {
+  background: #FFFFFF;
+  border: 1px solid #E7DCC2;
+  border-radius: 4px;
+  padding: 24px;
+  font-size: 14px;
+  color: #6B6250;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.page-nodal-usermgt .cms-state-error {
+  color: #B84343;
+  background: #FBE7E7;
+  border-color: #F0C4C4;
+}
+
+.page-nodal-usermgt .btn-link {
+  border: none;
+  background: none;
+  color: #B8862E;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.page-nodal-usermgt .cms-nodal-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card {
+  background: #FFFFFF;
+  border: 1px solid #E9E1CC;
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #9A8B64;
+  margin-bottom: 8px;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: #26324A;
+  font-family: system-ui;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card-green {
+  border-color: #C9E0C0;
+  background: #F3FAEF;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card-green .cms-nodal-stat-value {
+  color: #3F7D32;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card-grey .cms-nodal-stat-value {
+  color: #6B7280;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card-red {
+  border-color: #F0C4C4;
+  background: #FDF3F3;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-card-red .cms-nodal-stat-value {
+  color: #B84343;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #B8862E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-nodal-usermgt .cms-nodal-stat-link:hover {
+  text-decoration: underline;
+}
+
+.page-nodal-usermgt .cms-nodal-filter-pills {
+  display: inline-flex;
+  border: 1px solid #D8CBA8;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page-nodal-usermgt .cms-nodal-pill {
+  border: none;
+  background: #FFFFFF;
+  color: #4A4335;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+
+.page-nodal-usermgt .cms-nodal-pill.active {
+  background: #3F6B1F;
+  color: #FFFFFF;
+}
+
+.page-nodal-usermgt .cms-nodal-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.page-nodal-usermgt .cms-nodal-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #D8CBA8;
+  border-radius: 20px;
+  padding: 8px 16px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.page-nodal-usermgt .cms-nodal-search i {
+  color: #B8A98A;
+  font-size: 13px;
+}
+
+.page-nodal-usermgt .cms-nodal-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  color: #26324A;
+  width: 100%;
+}
+
+.page-nodal-usermgt .cms-nodal-search input::placeholder {
+  color: #B8A98A;
+}
+
+.page-nodal-usermgt .cms-table-scroll {
+  overflow-x: auto;
+  background: #FFFFFF;
+  border: 1px solid #E9E1CC;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.page-nodal-usermgt .cms-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.page-nodal-usermgt .cms-table thead th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #8A7A52;
+  background: #FBF5E9;
+  padding: 12px 16px;
+  border-bottom: 1px solid #E9E1CC;
+  white-space: nowrap;
+}
+
+.page-nodal-usermgt .cms-th-actions {
+  text-align: right !important;
+}
+
+.page-nodal-usermgt .cms-table tbody td {
+  padding: 12px 16px;
+  font-size: 13.5px;
+  color: #26324A;
+  border-bottom: 1px solid #F1EAD6;
+  vertical-align: middle;
+}
+
+.page-nodal-usermgt .cms-nodal-table-row {
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.page-nodal-usermgt .cms-nodal-table-row:hover {
+  background: #FBF5E9;
+}
+
+.page-nodal-usermgt .cms-home-table-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #26324A;
+}
+
+.page-nodal-usermgt .cms-card-tagline {
+  font-size: 12.5px;
+  color: #8A8071;
+  margin-top: 2px;
+}
+
+.page-nodal-usermgt .cms-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 12px 5px 9px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.page-nodal-usermgt .cms-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.page-nodal-usermgt .cms-footer-icon-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  flex-shrink: 0;
+  border: 1px solid #E9E1CC;
+}
+
+.page-nodal-usermgt .cms-footer-icon-btn-light {
+  background: #FBF5E9;
+  color: #8A7A52;
+}
+
+.page-nodal-usermgt .cms-footer-icon-btn-light:hover {
+  background: #F1EAD6;
+}
+
+@media (max-width: 720px) {
+  .page-nodal-usermgt .cms-nodal {
+    padding: 24px 18px 44px;
+  }
+}
+
+.page-nodal-usermgt .cms-badge-registered {
+  background: #E7F1E3;
+  color: #3F7D32;
+}
+
+.page-nodal-usermgt .cms-badge-registered .cms-badge-dot {
+  background: #3F7D32;
+}
+
+.page-nodal-usermgt .cms-badge-unregistered {
+  background: #EEF2F6;
+  color: #6B7280;
+}
+
+.page-nodal-usermgt .cms-badge-unregistered .cms-badge-dot {
+  background: #6B7280;
+}
+
+.page-nodal-usermgt .cms-nodal-postcode-cell {
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 12.5px;
+  color: #26324A;
+}
+
+.page-nodal-usermgt .cms-nodal-no-projects {
+  color: #B8A98A;
+  font-size: 12.5px;
+}
+
+.page-nodal-usermgt .cms-nodal-project-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.page-nodal-usermgt .cms-nodal-project-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #FBF5E9;
+  border: 1px solid #E9E1CC;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #26324A;
+  cursor: pointer;
+}
+
+.page-nodal-usermgt .cms-nodal-project-chip:hover {
+  background: #F1EAD6;
+}
+
+.page-nodal-usermgt .cms-nodal-project-chip em {
+  font-style: normal;
+  font-size: 10.5px;
+  font-weight: 700;
+}

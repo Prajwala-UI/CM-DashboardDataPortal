@@ -1,0 +1,425 @@
+/* Migrated from Angular Nodal_Modules/nodal-dashboard/nodal-dashboard.component.css.
+   Scoped to reproduce Angular emulated view encapsulation (page root .page-nodal-dashboard). */
+.page-nodal-dashboard .cms-nodal {
+  margin: 0 auto;
+  padding: 36px 32px 60px;
+  font-family: system-ui;
+  color: #26324A;
+  box-sizing: border-box;
+  background-color: #fbf5e9;
+  min-height: calc(100vh - 60px);
+}
+
+.page-nodal-dashboard .cms-nodal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+
+.page-nodal-dashboard .cms-title {
+  font-family: system-ui;
+  font-size: 26px;
+  font-weight: 700;
+  color: #383531;
+  margin: 0 0 8px 0;
+}
+
+.page-nodal-dashboard .cms-subtitle {
+  font-size: 13px;
+  color: #6B6250;
+  margin: 0;
+  font-family: system-ui;
+}
+
+.page-nodal-dashboard .cms-state-msg {
+  background: #FFFFFF;
+  border: 1px solid #E7DCC2;
+  border-radius: 4px;
+  padding: 24px;
+  font-size: 14px;
+  color: #6B6250;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.page-nodal-dashboard .cms-state-error {
+  color: #B84343;
+  background: #FBE7E7;
+  border-color: #F0C4C4;
+}
+
+.page-nodal-dashboard .btn-link {
+  border: none;
+  background: none;
+  color: #B8862E;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.page-nodal-dashboard .cms-nodal-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.page-nodal-dashboard .cms-nodal-stat-card {
+  background: #FFFFFF;
+  border: 1px solid #E9E1CC;
+  border-left: 4px solid #E9E1CC;
+  border-radius: 8px;
+  padding: 16px 18px;
+  transition: box-shadow 0.15s ease;
+}
+
+.page-nodal-dashboard .cms-nodal-stat-card:hover {
+  box-shadow: 0 3px 12px rgba(38, 50, 74, 0.08);
+}
+
+.page-nodal-dashboard .cms-nodal-stat-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #9A8B64;
+  margin-bottom: 8px;
+}
+
+.page-nodal-dashboard .cms-nodal-stat-value {
+  font-size: 26px;
+  font-weight: 800;
+  color: #26324A;
+  font-family: system-ui;
+}
+
+.page-nodal-dashboard .cms-stat-blue {
+  border-left-color: #2A6FDB;
+  background: #F3F7FE;
+}
+
+.page-nodal-dashboard .cms-stat-blue .cms-nodal-stat-label { color: #2A6FDB; }
+
+.page-nodal-dashboard .cms-stat-blue .cms-nodal-stat-value { color: #1A4E9C; }
+
+.page-nodal-dashboard .cms-stat-purple {
+  border-left-color: #7A3FC9;
+  background: #F6F1FD;
+}
+
+.page-nodal-dashboard .cms-stat-purple .cms-nodal-stat-label { color: #7A3FC9; }
+
+.page-nodal-dashboard .cms-stat-purple .cms-nodal-stat-value { color: #5A2A9A; }
+
+.page-nodal-dashboard .cms-stat-green {
+  border-left-color: #3F7D32;
+  background: #F3FAEF;
+}
+
+.page-nodal-dashboard .cms-stat-green .cms-nodal-stat-label { color: #3F7D32; }
+
+.page-nodal-dashboard .cms-stat-green .cms-nodal-stat-value { color: #3F7D32; }
+
+.page-nodal-dashboard .cms-stat-red {
+  border-left-color: #B84343;
+  background: #FDF3F3;
+}
+
+.page-nodal-dashboard .cms-stat-red .cms-nodal-stat-label { color: #B84343; }
+
+.page-nodal-dashboard .cms-stat-red .cms-nodal-stat-value { color: #B84343; }
+
+.page-nodal-dashboard .cms-stat-orange {
+  border-left-color: #D97706;
+  background: #FEF7EC;
+}
+
+.page-nodal-dashboard .cms-stat-orange .cms-nodal-stat-label { color: #D97706; }
+
+.page-nodal-dashboard .cms-stat-orange .cms-nodal-stat-value { color: #B45309; }
+
+.page-nodal-dashboard .cms-stat-teal {
+  border-left-color: #0E8F8F;
+  background: #ECFAFA;
+}
+
+.page-nodal-dashboard .cms-stat-teal .cms-nodal-stat-label { color: #0E8F8F; }
+
+.page-nodal-dashboard .cms-stat-teal .cms-nodal-stat-value { color: #0A6B6B; }
+
+.page-nodal-dashboard .cms-nodal-filter-pills {
+  display: inline-flex;
+  border: 1px solid #D8CBA8;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page-nodal-dashboard .cms-nodal-pill {
+  border: none;
+  background: #FFFFFF;
+  color: #4A4335;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+
+.page-nodal-dashboard .cms-nodal-pill.active {
+  background: #3F6B1F;
+  color: #FFFFFF;
+}
+
+.page-nodal-dashboard .cms-nodal-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.page-nodal-dashboard .cms-nodal-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #D8CBA8;
+  border-radius: 20px;
+  padding: 8px 16px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.page-nodal-dashboard .cms-nodal-search i {
+  color: #B8A98A;
+  font-size: 13px;
+}
+
+.page-nodal-dashboard .cms-nodal-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  color: #26324A;
+  width: 100%;
+}
+
+.page-nodal-dashboard .cms-nodal-search input::placeholder {
+  color: #B8A98A;
+}
+
+.page-nodal-dashboard .cms-table-scroll {
+  overflow-x: auto;
+  background: #FFFFFF;
+  border: 1px solid #E9E1CC;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.page-nodal-dashboard .cms-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.page-nodal-dashboard .cms-table thead th {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #8A7A52;
+  background: #f8e7c6;
+  padding: 12px 16px;
+  border: 1px solid #d3b872;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.page-nodal-dashboard .cms-th-sortable {
+  cursor: pointer;
+}
+
+.page-nodal-dashboard .cms-th-sortable:hover {
+  background: #F3E9CE;
+  color: #4A4335;
+}
+
+.page-nodal-dashboard .cms-th-sortable i {
+  margin-left: 6px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.page-nodal-dashboard .cms-th-sortable:hover i {
+  opacity: 1;
+}
+
+.page-nodal-dashboard .cms-th-actions {
+  text-align: right !important;
+}
+
+.page-nodal-dashboard .cms-table tbody td {
+  padding: 12px 16px;
+  font-size: 13.5px;
+  color: #26324A;
+  border: 1px solid #dbb872;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.page-nodal-dashboard .cms-nodal-table-row {
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.page-nodal-dashboard .cms-nodal-table-row:hover {
+  background: #FBF5E9;
+}
+
+.page-nodal-dashboard .cms-td-slno {
+  font-weight: 700;
+  color: #8A7A52;
+  font-size: 13px;
+}
+
+.page-nodal-dashboard .cms-home-table-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #26324A;
+}
+
+.page-nodal-dashboard .cms-card-tagline {
+  font-size: 12.5px;
+  color: #8A8071;
+  margin-top: 2px;
+}
+
+.page-nodal-dashboard .cms-target-cell {
+  font-size: 12.5px;
+  color: #4A4335;
+  text-align: left !important;
+  white-space: pre-line;
+  line-height: 1.5;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-nodal-dashboard .cms-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 12px 5px 9px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.page-nodal-dashboard .cms-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.page-nodal-dashboard .cms-footer-icon-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  flex-shrink: 0;
+  border: 1px solid #E9E1CC;
+}
+
+.page-nodal-dashboard .cms-footer-icon-btn-light {
+  background: #FBF5E9;
+  color: #8A7A52;
+}
+
+.page-nodal-dashboard .cms-footer-icon-btn-light:hover {
+  background: #F1EAD6;
+}
+
+.page-nodal-dashboard .cms-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.page-nodal-dashboard .cms-pagination-info {
+  font-size: 12.5px;
+  color: #6B6250;
+}
+
+.page-nodal-dashboard .cms-pagination-info b {
+  color: #26324A;
+}
+
+.page-nodal-dashboard .cms-pagination-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.page-nodal-dashboard .cms-page-btn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 6px;
+  border: 1px solid #E9E1CC;
+  background: #FFFFFF;
+  color: #4A4335;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.page-nodal-dashboard .cms-page-btn:hover:not(:disabled):not(.active) {
+  background: #FBF5E9;
+  border-color: #D8CBA8;
+}
+
+.page-nodal-dashboard .cms-page-btn.active {
+  background: #3F6B1F;
+  border-color: #3F6B1F;
+  color: #FFFFFF;
+}
+
+.page-nodal-dashboard .cms-page-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (max-width: 720px) {
+  .page-nodal-dashboard .cms-nodal {
+    padding: 24px 18px 44px;
+  }
+
+  .page-nodal-dashboard .cms-pagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.page-nodal-dashboard .cms-home-table-logo img {
+  height: 100px;
+}
