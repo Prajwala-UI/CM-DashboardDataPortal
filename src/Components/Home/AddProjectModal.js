@@ -45,6 +45,8 @@ const AddProjectModal = ({ postCode, onClose, onAdded }) => {
         reader.readAsDataURL(file);
     };
 
+
+
     const clearLogo = () => update({ logoFileName: '', logoBase64: '' });
 
     const submitAddProject = async () => {

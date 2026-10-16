@@ -17,6 +17,7 @@ const AppRoutes = () => {
     <Suspense fallback={<Loader />}>
       <Routes>
         {/* User Modules */}
+        {/* add some baseURL */}
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/project/:id" element={<ProtectedRoute element={<ProjectDetail variant="user" />} />} />
